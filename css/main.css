@@ -1,0 +1,45 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.toolbar {
+	
+
+}
+
+.inner {
+	position: relative;
+	width: 990px;
+	height: 40px;
+	margin: 0 auto;
+}
+
+.toolbar .topbar {
+	position: absolute;
+	top: 0;
+	right: 0;
+	list-style:  none;
+}
+
+.header {
+
+}
+
+.container {
+
+}
+
+.footer {
+
+}
+
+.nav-justified {
+	background-color: #eee;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.glyphicon {
+	top: 2px;
+}

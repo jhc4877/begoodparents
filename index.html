@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html ng-controller="CommonCtrl">
+	<head>
+		<meta charset="utf-8">
+		<title>Be Good Parents</title>
+		<link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="lib/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+	</head>
+	<body>
+		<div class="toolbar">
+			<div class="inner">
+				<div class="btn-group topbar" role="group">
+					<button class="btn btn-info btn-xs"><span class="fa fa-user"></span> 로그인</button>
+					<button class="btn btn-info btn-xs"><span class="fa fa-user-plus"></span> 회원가입</button>
+					<button class="btn btn-info btn-xs"><span class="fa fa-lock"></span> 관리자</button>
+					<button class="btn btn-info btn-xs"><span class="fa fa-krw"></span> 판매자</button>
+					<button class="btn btn-info btn-xs"><span class="glyphicon glyphicon-lock"></span> 마이페이지</button>
+					<button class="btn btn-info btn-xs"><span class="glyphicon glyphicon-headphones"></span> 고객센터</button>
+					<button class="btn btn-info btn-xs"><span class="fa fa-bookmark"></span> 즐겨찾기</button>
+				</div>
+			</div>
+		</div>
+<!--
+		<div class="header">
+			<nav class="inner">
+				<ul class="nav nav-justified">
+					<li><a href="">카테고리</a></li>
+					<li><a href="">베스트</a></li>
+					<li><a href="">베이비</a></li>
+					<li><a href="">키즈</a></li>
+					<li><a href="">맘&대디</a></li>
+					<li><a href="">패밀리</a></li>
+				</ul>
+			</nav>
+		</div>
+-->
+		<nav class="navbar navbar-default" role="navigation" id="header">
+			<div class="inner">
+				<ul class="nav navbar-nav">
+					<li  dropdown is-open="status.isopen">
+						<a href="" class="dropdown-toggle" dropdown-toggle><span class="fa fa-th-list"></span> 카테고리 <span class="fa fa-caret-down"></span></a>
+						<ul class="dropdown-menu" role="menu">
+							<li>1</li>
+							<li>1</li>
+							<li>1</li>
+							<li>1</li>
+						</ul>
+					</li>
+					<li>
+						<a href=""><span class="fa fa-thumbs-up"></span> 베스트</a>
+					</li>
+					<li>
+						<a href=""><span class="glyphicons glyphicons-baby-formula"></span> 베이비</a>
+					</li>
+					
+				</ul>
+			</div>
+		</nav>
+
+		<div class="container"></div>
+
+		<div class="footer"></div>
+
+		<script data-main="js/main" src="lib/require/requirejs.min.js"></script>
+	</body>
+</html>
